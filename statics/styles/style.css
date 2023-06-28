@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Titulo";
+    src: url("../media/KGRedHands.ttf");
+}
+
+body {
+    background-image: url("../media/fondo.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+#principal{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+
+.titulo{
+    font-family: "Titulo";
+    align-self: center;
+    justify-self: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right,#A24AFF,#6D46EB,#4D4FFF,#4B74EB,#47A3FF);
+    font-size: 700%;
+    margin: 0 auto;
+    bottom:10000px;
+
+} 
+
+#pantalla-completa-btn{
+    align-self:flex-end;
+    width: 3%;
+    height: 5%;
+    border: 0;
+    border-radius: 40%;
+    background-color: red;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+#pantalla-completa-img{
+    width: 110%;
+    height: 80%;
+    border: 0;
+}
